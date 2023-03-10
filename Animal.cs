@@ -23,10 +23,10 @@ namespace Tamagocchi
         public Animal(string typeInp = "Dog", string nameInp = "Stray",
             int healthInp = 5, string voiceSoundInp = "Growl")
         {
-            string type = typeInp;
-            string name = nameInp;
-            int health = healthInp;
-            string voiceSound = voiceSoundInp;
+            this.type = typeInp;
+            this.name = nameInp;
+            this.health = healthInp;
+            this.voiceSound = voiceSoundInp;
             Console.WriteLine($"Created {this.type} {this.name} with {this.health}");
         }
 
